@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CoverView: View {
     //MARK: - PROPERITES
+    let coverImages: [CoverImage] = Bundle.main.decode(fileToDecode: "covers.json")
     var body: some View {
         TabView{
             ForEach(0 ..< 5 ) { item in

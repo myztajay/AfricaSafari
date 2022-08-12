@@ -30,6 +30,8 @@
 		7A0B993428A706AF008F7D76 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B993328A706AF008F7D76 /* MainTabView.swift */; };
 		7A0B993628A706BF008F7D76 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B993528A706BF008F7D76 /* MapView.swift */; };
 		7A0B993928A70A29008F7D76 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B993828A70A29008F7D76 /* CoverView.swift */; };
+		7A0B993E28A70C8D008F7D76 /* CoverModelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B993D28A70C8D008F7D76 /* CoverModelImage.swift */; };
+		7A0B994328A70DAC008F7D76 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B994228A70DAC008F7D76 /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		7A0B993328A706AF008F7D76 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		7A0B993528A706BF008F7D76 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7A0B993828A70A29008F7D76 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		7A0B993D28A70C8D008F7D76 /* CoverModelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverModelImage.swift; sourceTree = "<group>"; };
+		7A0B994228A70DAC008F7D76 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		7A0B990028A70298008F7D76 /* AfricaSafari */ = {
 			isa = PBXGroup;
 			children = (
+				7A0B993F28A70D6A008F7D76 /* Extension */,
+				7A0B993A28A70C6B008F7D76 /* Model */,
 				7A0B992D28A705A0008F7D76 /* Info.plist */,
 				7A0B993728A70A0E008F7D76 /* View */,
 				7A0B992428A704A1008F7D76 /* Data */,
@@ -156,6 +162,22 @@
 				7A0B993828A70A29008F7D76 /* CoverView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7A0B993A28A70C6B008F7D76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A0B993D28A70C8D008F7D76 /* CoverModelImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A0B993F28A70D6A008F7D76 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7A0B994228A70DAC008F7D76 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,10 +267,12 @@
 				7A0B990428A70298008F7D76 /* ContentView.swift in Sources */,
 				7A0B993928A70A29008F7D76 /* CoverView.swift in Sources */,
 				7A0B993628A706BF008F7D76 /* MapView.swift in Sources */,
+				7A0B993E28A70C8D008F7D76 /* CoverModelImage.swift in Sources */,
 				7A0B990228A70298008F7D76 /* AfricaSafariApp.swift in Sources */,
 				7A0B993028A70691008F7D76 /* VideoListView.swift in Sources */,
 				7A0B993228A7069F008F7D76 /* GalleryView.swift in Sources */,
 				7A0B993428A706AF008F7D76 /* MainTabView.swift in Sources */,
+				7A0B994328A70DAC008F7D76 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
