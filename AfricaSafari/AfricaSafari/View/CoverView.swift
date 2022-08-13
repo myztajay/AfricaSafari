@@ -12,10 +12,10 @@ struct CoverView: View {
     let coverImages: [CoverImage] = Bundle.main.decode(fileToDecode: "covers.json")
     var body: some View {
         TabView{
-            ForEach(0 ..< 5 ) { item in
-                Image("cover-lion")
+            ForEach(coverImages) { coverImage in
+                Image(coverImage.name)
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
             } //MARK: - LOOP
         }//MARK: - TAB
         .tabViewStyle(PageTabViewStyle())
